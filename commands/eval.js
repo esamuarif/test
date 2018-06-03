@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 exports.run = async (bot, message, args, color, prefix) => {
-    if (message.author.id !== '442943210092888065' && message.author.id !== '442943210092888065') return;
+    if (message.author.id !== '442943210092888065' && message.author.id !== '444454206800396309') return;
     try {
         let codein = args.join(" ");
         let code = eval(codein);
