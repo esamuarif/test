@@ -1,10 +1,10 @@
 const Discord = require("discord.js"); 
-const PREFIX = "mn!"; 
+const PREFIX = "e!"; 
 
 var bot = new Discord.Client(); 
 
 bot.on("ready", function() { 
-    bot.user.setGame("mn!help"); 
+    bot.user.setGame("e!help"); 
     console.log(`${bot.user.username} Sedang ONLINE!`); 
 });
 
