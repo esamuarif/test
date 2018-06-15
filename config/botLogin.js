@@ -13,6 +13,6 @@
 
 module.exports = {
 	token:NDUyODI5MTY2MDgyMDY0Mzg0.DgUrsQ.Nhmkx2c22tjMtSdN4YKk0zuBKYI,
-	youtubeAPI: "YOUTUBE_API_KEY",
+	youtubeAPI:AIzaSyCypWbdNiI_MzIs0G4dAW9Mb_vcevy-xZQ,
 	owner_id:442943210092888065
 }
