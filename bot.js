@@ -116,7 +116,7 @@ bot.on("message", function(message) {
     if (autoresponder.content.startsWith(PREFIX)) return;
 
     if (autoresponder.content === `<@${bot.user.id}>`) {
-        return autoresponder.reply(`Hi <@${message.author.id}>, my prefix is _**e!**_`)
+        return autoresponder.reply(` my prefix is _**e!**_`)
     }
 
 });
