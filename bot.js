@@ -121,4 +121,4 @@ bot.on("message", function(message) {
 
 });
 
-bot.lon(process.env.TOKEN); 
+bot.login(process.env.TOKEN); 
