@@ -116,7 +116,7 @@ bot.on("message", function(message) {
     if (autoresponder.content.startsWith(PREFIX)) return;
 
     if (autoresponder.content === `<@${bot.user.id}>`) {
-        return autoresponder.reply(' Type _**e!**_ Noob!')
+        return autoresponder.reply(' Type _**e!**_  Noob!')
     }
 
 });
