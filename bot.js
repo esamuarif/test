@@ -114,9 +114,21 @@ bot.on("message", function(message) {
     let msg = autoresponder.content.toLowerCase();
     let sender = autoresponder.author;
     if (autoresponder.content.startsWith(PREFIX)) return;
+     
+     var eightball = [
+      "**Yes.**",
+      "**No.**",
+      "**Maybe?.**",
+      "**Very likely.**",
+      "**Probably not.**",
+      "**😇Only God knows.**",
+      "**🙄Hmmm...**",
+      "**😆, What is your question?**",
+  ];
 
     if (autoresponder.content === `<@${bot.user.id}>`) {
-        return autoresponder.reply(' Type _**e!**_  Noob!')
+        return autoresponder.reply(eightball[Math.floor(Math.random() * eightball.length).toString(16)]);
+        else message.channel.send("🙄**Hmmm... |** `Please Type : l!ask [question]>`");)
     }
 
 });
