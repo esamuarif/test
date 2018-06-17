@@ -102,7 +102,7 @@ bot.on("message", function(message) {
             .addField('Member Status', `**${message.guild.members.filter(o => o.presence.status === 'online').size}**<:online:449590947165110283> Online\n**${message.guild.members.filter(i => i.presence.status === 'idle').size}**<:away:449590947110584321> Idle/Away\n**${message.guild.members.filter(dnd => dnd.presence.status === 'dnd').size}**<:dnd:449590946879766539> Do Not Disturb\n**${message.guild.members.filter(off => off.presence.status === 'offline').size}**<:offline:449590947047669760> Offline/Invisible\n**${message.guild.members.filter(s => s.presence.status === 'streaming').size}**<:stream:449590947232350221> Streaming`)
             .addField("Kamu Join", message.member.joinedAt) 
             .setFooter(`Owner: ${message.guild.owner.user.tag}`)
-    message.channel.reply(serverembed);
+    message.reply(serverembed);
     };
     
  });
