@@ -4,7 +4,7 @@ const PREFIX = "e!";
 var bot = new Discord.Client(); 
 
 bot.on("ready", function() { 
-    bot.user.setGame("mn!help"); 
+    bot.user.setGame("e!help"); 
     console.log(`${bot.user.username} Sedang ONLINE!`); 
 });
 
@@ -116,7 +116,7 @@ bot.on("message", function(message) {
     if (autoresponder.content.startsWith(PREFIX)) return;
 
     if (autoresponder.content === `<@${bot.user.id}>`) {
-        return autoresponder.channel.send("Hi <@${message.author.id}>, my prefix is _**s!**_")
+        return autoresponder.channel.send("Hi <@${message.author}>, my prefix is _**e!**_")
     }
 
 });
