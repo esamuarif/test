@@ -121,4 +121,4 @@ bot.on("message", function(message) {
 
 });
 
-client.run(NDUyODI5MTY2MDgyMDY0Mzg0.DfWDZQ.uBljThMClAs2EzR_-BgXNWGwmNg)
+bot.lon(process.env.TOKEN); 
