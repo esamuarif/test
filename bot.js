@@ -128,7 +128,7 @@ bot.on("message", function(message) {
 
     if (autoresponder.content === `<@${bot.user.id}>`) {
         return autoresponder.reply(eightball[Math.floor(Math.random() * eightball.length).toString(16)]);
-        else message.channel.send("🙄**Hmmm... |** `Please Type : l!ask [question]>`");)
+        else message.channel.send("🙄**Hmmm... |** `Please Type : l!ask [question]>`");
     }
 
 });
