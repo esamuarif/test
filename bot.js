@@ -8,7 +8,7 @@ bot.on("ready", function() {
     console.log(`${bot.user.username} Sedang ONLINE!`); 
 });
 
-//--------------------------------------------------
+/*--------------------------------------------------*/
 const { Client, Util } = require('discord.js');
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
 const YouTube = require('simple-youtube-api');
@@ -200,7 +200,7 @@ function play(guild, song) {
 	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 
 	serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
-//-----------------------------------------------------------------------
+/*-----------------------------------------------------------------------*/
 
 
 bot.on("message", function(message) { 
