@@ -226,7 +226,7 @@ bot.on("message", function(message) {
 
         if (command == "help") { 
             var embedhelpmember = new Discord.RichEmbed() 
-                .setTitle("**Bantuan Minasaki**\n") 
+                .setTitle("**Bantuan Kimochi**\n") 
                 .addField("General", "Command") 
                 .addField(" `ping`", "Menampilkan Latency Dan API") 
                 .addField(" `avatar`", "menampilkan pp atau (`avatar` @usertag)")
@@ -244,7 +244,7 @@ bot.on("message", function(message) {
                 .addField(" `createinvite`", "membuat permanen invite link") 
 
                 .setColor(0x36FF00) 
-                .setFooter("Coded by @King Of Erangel✔🇲🇾🇮🇩#2769 | Created By : Sharif"); 
+                .setFooter("Coded by @Roy Kimochi✅#9284 | Created By : Muarif"); 
                 message.channel.send(embedhelpmember)
 
     };
@@ -277,7 +277,7 @@ bot.on("message", function(message) {
         .setDescription("Informasi Bot")
         .setColor('RANDOM')
         .addField("Nama Bot", `${bot.user.tag}`)
-        .addField("Creator", "@King Of Erangel✔🇲🇾🇮🇩#2769") 
+        .addField("Creator", "@Roy Kimochi✅#9284") 
         .addField("Dibuat Pada", `${bot.user.createdAt}`)
         .setThumbnail(bicon)
         message.channel.send(helpmember);
